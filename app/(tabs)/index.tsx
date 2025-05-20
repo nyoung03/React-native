@@ -1,12 +1,11 @@
-import { router } from "expo-router";
-import { Pressable, SafeAreaView, Text } from "react-native";
+import CustomButton from "@/components/CustomButton";
+import { SafeAreaView, Text } from "react-native";
 
 export default function HomeScreen() {
   return (
     <SafeAreaView>
-      <Pressable onPress={() => router.push("/explore")}>
-        <Text>홈스크린</Text>
-      </Pressable>
+      <Text>홈스크린</Text>
+      <CustomButton label="button" />
     </SafeAreaView>
   );
 }

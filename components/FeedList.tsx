@@ -15,7 +15,7 @@ const dummy = [
     title: "더미",
     description:
       "더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용더미 내용",
-    createdAt: "",
+    createdAt: "2024-11-11",
     author: { id: 1, nickname: "nickname", imageUri: "" },
     imageUris: [],
     likes: [],
@@ -25,7 +25,7 @@ const dummy = [
     viewCount: 3,
   },
   {
-    id: 1,
+    id: 2,
     userId: 1,
     title: "더미",
     description:

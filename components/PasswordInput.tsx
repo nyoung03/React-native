@@ -2,17 +2,17 @@ import React from "react";
 import { Controller, useFormContext } from "react-hook-form";
 import InputField from "./InputField";
 
-function EmailInput() {
+function PasswordInput() {
   const { control } = useFormContext();
 
   return (
     <Controller
-      name="email"
+      name="password"
       control={control}
       render={({ field: { onChange, value } }) => (
         <InputField
-          label="이메일"
-          placeholder="이메일을 입력해주세요."
+          label="비밀번호"
+          placeholder="비밀번호를 입력해주세요."
           value={value}
           onChangeText={onChange}
         />
@@ -21,4 +21,4 @@ function EmailInput() {
   );
 }
 
-export default EmailInput;
+export default PasswordInput;
